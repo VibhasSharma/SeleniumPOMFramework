@@ -1,6 +1,7 @@
 package com.contactsApp.testCases;
 
 import org.openxml4j.exceptions.InvalidFormatException;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
@@ -31,11 +32,11 @@ public class addContactPageTest extends BaseClass{
 		addContact = new addContactPage();
 	}
 	
-//	@Test(priority=1)
-//	public void addContactPageHeadingTest() {
-//		String heading = addContact.validateHeading();
-//		Assert.assertEquals(heading, "Create a new Contact", "Title doesnot match");
-//	}
+	@Test(priority=1)
+	public void addContactPageHeadingTest() {
+		String heading = addContact.validateHeading();
+		Assert.assertEquals(heading, "Create a new Contact", "Title doesnot match");
+	}
 	
 	@DataProvider
 	public Object[][] getContactsTestData() throws InvalidFormatException{
