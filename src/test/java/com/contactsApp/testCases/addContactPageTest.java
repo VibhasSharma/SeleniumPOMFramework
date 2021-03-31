@@ -43,10 +43,6 @@ public class addContactPageTest extends BaseClass{
 		return data;
 	}
 	
-//	@Test(priority=1)
-//	public void waitForLandingPageToLoadTest() {
-//		
-//	}
 	
 	@Test(priority=2, dataProvider="getContactsTestData")
 	public void addNewContactTest(String fName, String lName, String email, String phone, String state, String city, String dob, String company) {
