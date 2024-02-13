@@ -11,7 +11,7 @@ public class addContactPage extends BaseClass{
 	@FindBy(xpath="//h3[text()='Create a new Contact']")
 	WebElement heading;
 	
-	// Form fields elements
+	// Form input field elements
 	@FindBy(xpath="//input[@name='fName']")
 	WebElement firstName;
 	
