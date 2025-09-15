@@ -12,6 +12,7 @@ public class addContactPage extends BaseClass{
 	WebElement heading;
 	
 	// Form input field elements
+ // Page factory
 	@FindBy(xpath="//input[@name='fName']")
 	WebElement firstName;
 	
