@@ -8,6 +8,7 @@ import com.contactsApp.base.BaseClass;
 
 public class contactListPage extends BaseClass{
 
+// re structure
 	@FindBy(xpath="//h3[text()='Contact List']")
 	WebElement headingContactList;
 	
