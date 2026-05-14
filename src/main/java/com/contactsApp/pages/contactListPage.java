@@ -11,7 +11,7 @@ public class contactListPage extends BaseClass{
 	@FindBy(xpath="//h3[text()='Contact List']")
 	WebElement headingContactList;
 	
-	//Initialize the page objects
+
 	public contactListPage() {
 		PageFactory.initElements(driver, this);
 	}
