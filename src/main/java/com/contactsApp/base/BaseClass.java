@@ -18,7 +18,7 @@ public class BaseClass {
 	public static WebDriver driver;
 	public static Properties properties;
 	
-	// Constructor of Base Class
+	// Constructor
 	public BaseClass() {
 		try {
 			properties = new Properties();
