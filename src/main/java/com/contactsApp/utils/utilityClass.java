@@ -11,7 +11,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 import com.contactsApp.base.BaseClass;
 
 public class utilityClass extends BaseClass{
-	// Timeout Values
+	
 	public static long PAGE_LOAD_TIMEOUT = 20;
 	public static long IMPLICIT_WAIT = 10;
 	public static String TEST_DATA_SHEET_PATH = "E:\\e\\Study material\\NodeMysql\\Selenium-Java\\ContactsAppAutomation\\src\\main\\java\\com\\contactsApp\\testData\\TestDataNew.xlsx";
